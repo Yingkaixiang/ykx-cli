@@ -7,7 +7,7 @@ const ora = require('ora');
 const chalk = require('chalk');
 const symbols = require('log-symbols');
 
-program.version('0.0.1', '-v, --version');
+program.version('0.0.2', '-v, --version');
 
 program.command('create <name>').action((name) => {
   inquirer
