@@ -5,7 +5,7 @@ const inquirer = require('inquirer');
 
 const download = require('./download');
 
-program.version('0.0.3', '-v, --version');
+program.version('0.0.4', '-v, --version');
 
 program.command('create <name>').action((name) => {
   inquirer
