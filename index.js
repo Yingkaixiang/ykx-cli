@@ -38,6 +38,8 @@ program.command('create <name>').action((name) => {
                 break;
             }
           });
+      } else if (answers.type === 'React') {
+        download('github:Yingkaixiang/ykx-template-react', name);
       }
     });
 });
