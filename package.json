@@ -1,6 +1,6 @@
 {
   "name": "ykx-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "项目脚手架",
   "main": "index.js",
   "bin": {
